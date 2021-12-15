@@ -1,0 +1,109 @@
+@import url('https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css');
+
+*{
+    font-family: 'Vazir';
+    transition: 1s linear;
+    direction: rtl;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-color: #FB8500;
+}
+
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    font-size: 20px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 500;
+}
+
+input::placeholder{
+  color: #fff;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button{
+    border: none;
+    padding: .2rem 1rem;
+    color:#fff;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 5px;
+    background-color: #0F111A;
+    border-radius: 5px;
+}
+
+
+section{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.flex-wrapper {
+    display: none;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+  }
+  
+  .single-chart {
+    width: 33%;
+    justify-content: space-around ;
+  }
+  
+  .circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+  }
+  
+  .circular-chart.orange .circle {
+    stroke: #ff9f00;
+  }
+  
+  .circular-chart.green .circle {
+    stroke: #4CC790;
+  }
+  
+  .circular-chart.blue .circle {
+    stroke: #3c9ee5;
+  }
+  
+  .percentage {
+    fill: #666;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+  }
